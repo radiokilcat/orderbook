@@ -42,6 +42,7 @@ public:
 private:
     std::vector<Order> bids_;
     std::vector<Order> asks_;
+
 };
 
 #endif // ORDERBOOK_H

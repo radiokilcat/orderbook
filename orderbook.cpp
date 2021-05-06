@@ -3,13 +3,6 @@
 
 #include "orderbook.h"
 
-
-
-Order::Order()
-  : id_(order_id++)
-{
-}
-
 void OrderBook::print_ascending()
 {
     std::sort(bids_.begin(), bids_.end());
